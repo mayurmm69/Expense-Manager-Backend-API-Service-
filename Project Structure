@@ -1,0 +1,36 @@
+expense-manager-backend/
+├── src/
+│   ├── main/
+│   │   ├── java/com/example/expensemanager/
+│   │   │   ├── config/
+│   │   │   ├── controller/
+│   │   │   ├── dto/
+│   │   │   ├── exception/
+│   │   │   ├── model/
+│   │   │   ├── repository/
+│   │   │   ├── security/
+│   │   │   ├── service/
+│   │   │   └── ExpenseManagerApplication.java
+│   │   └── resources/
+│   │       ├── application.properties
+│   │       └── data.sql
+│   └── test/
+│       └── java/com/example/expensemanager/
+├── .gitignore
+├── pom.xml
+└── README.md
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Essential Files-:
+-----------------
+pom.xml (dependencies: Spring Boot, Spring Security, JWT, Hibernate, MySQL, Lombok)
+application.properties
+Main application class
+Entity/model classes (User, Expense, Comment, Role)
+DTOs and mappers
+Repository interfaces
+Security config (JWT, filters, providers)
+Controllers (Auth, Expense, Admin)
+Services (for business logic)
+Exception handling
+README.md
